@@ -22,4 +22,4 @@ jobs:
       
     -
       name: run the test
-      run: docker-compose run app sh -c "python manage.py test && flaske8"
+      run: docker-compose run app sh -c "python manage.py test && flake8"
